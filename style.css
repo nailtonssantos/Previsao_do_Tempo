@@ -29,6 +29,12 @@ body {
     margin-top: 30px;
 }
 
+.small-conteiner{
+    display: flex;
+    margin: 2vh 0vh 3vh 0;
+    align-items: center;
+}
+
 input {
     width: calc(100% - 100px);
     border: none;
@@ -70,7 +76,8 @@ h2 {
 
 .descricao {
     color: #ffffff;
-    margin: 2vh 0 3vh 0;
+    text-transform: capitalize;
+    margin-left: 2vh;
 }
 
 .umidade {
